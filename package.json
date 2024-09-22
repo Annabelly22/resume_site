@@ -1,0 +1,22 @@
+{
+  "name": "resume_site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https//:www.AnnabelOtutu.com"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Annabel Otutu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annabelly22/issues"
+  },
+  "homepage": "https//:www.AnnabelOtutu.com",
+  "description": ""
+}

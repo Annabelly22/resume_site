@@ -1,0 +1,257 @@
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color:#667;
+}
+
+
+.nav_left{
+  padding-left: 100px;
+}
+
+.nav_right{
+padding-right: 100px;
+}
+
+/* Ensure spacing and alignment are consistent */
+.pad_top {
+  padding-top: 20px; /* Adjust as needed */
+}
+
+.pad_left {
+  padding-left: 20px; /* Adjust as needed */
+}
+
+.pad_right {
+  padding-right: 20px; /* Adjust as needed */
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.impg {
+  margin-top: 20px;
+  font-size: 1.5rem; /* Adjust as needed */
+}
+.center{
+  font-family: Montserrat;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.img{
+  padding-top: 100px;
+}
+
+.ptext {
+  font-family: Montserrat;
+  position: absolute;
+  text-align: center;
+  top: 37%;
+  width: 24%;
+  font-size: 42px;
+  letter-spacing: 5px;
+  color: #070505;
+  padding-top: 15px;
+}
+
+.text {
+  font-family: Montserrat;
+  position: absolute;
+  text-align: center;
+  top: 37%;
+  width: 24%;
+  font-size: 42px;
+  letter-spacing: 5px;
+  color: #070505;
+  padding-top: 5px;
+  align-items: center;
+  align-content: center;
+}
+.block {
+  height: 650px;
+  width: 1500px;
+  background-color: #49c6ef;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.servicepadding{
+  padding-left: 50px
+}
+.block2{
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.row2 {
+  padding-top: 50px;
+}
+
+/* about me css */
+
+.about{
+  text-align: center;
+  margin-top: -50px;
+  color: #fff;
+}
+
+
+.blue{
+  padding-top: 100px;
+  width: 100%;
+}
+
+.sizing{
+  font-size: 20px;
+}
+
+.me{
+  padding-right: 30px;
+}
+
+.to{
+  padding-left: 30px;
+}
+
+.top1{
+  padding-top: 130px;
+}
+
+.bottom{
+  padding-bottom: 60px;
+}
+
+.footer{
+  /* position: absolute; */
+  bottom: 0;
+  background-color: #298bac;
+  width:100%;
+  color:white;
+  text-align: center;
+  height: 100px;
+  padding: 10px;
+}
+
+.botm{
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+.impg{
+  padding-top: 25px;
+}
+
+/* .pimg1{
+  position: relative;
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+
+.pimg1{
+  background-image: url('../pimg1.jpg');
+  height: 700px;
+}
+
+
+
+  padding:20px;
+
+} */
+/* Create three equal columns that float next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+body {
+  padding-top: 56px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.btn-outline-info {
+  border-color: #17a2b8;
+  color: #17a2b8;
+}
+
+.btn-outline-info:hover {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+footer {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.containerr {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between columns */
+  align-items: center; /* Center items vertically */
+}
+
+.col-md-6 {
+  flex: 1; /* Allow columns to take equal space */
+  padding: 15px; /* Optional padding */
+}
+
+.img-responsive {
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto; /* Maintain aspect ratio */
+}

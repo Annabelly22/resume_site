@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annabel I. Otutu - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon.ico">
+    <style>
+      html, body {
+          margin: 0;
+          padding: 0;
+      }
+
+      .navbar {
+          margin-bottom: 0;
+      }
+      .navbar {
+            margin-bottom: 0;
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            margin-bottom: 40px;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .service-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .service-card h3 {
+            margin-top: 20px;
+            font-size: 1.5rem;
+        }
+
+        .service-card p {
+            font-size: 1rem;
+        }
+
+        .hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+    color: white;
+}
+
+.hero-section video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire container */
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Place video behind content */
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    padding: 20px;
+    width: 50%; /* Adjust the width as needed */
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 42px;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    z-index: 1; /* Ensure content is above the video */
+}
+
+.hero-content img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hero-content h1,
+.hero-content h3 {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        width: 100%;
+        text-align: center;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 42px;
+        letter-spacing: 5px;
+    }
+
+    .hero-content img {
+        margin: 0 auto 20px auto;
+    }
+}
+  </style>
+    <title>Annabel Otutu</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark flex-d" style="background-color: #000000;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Annabel I. Otutu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="C:\Users\anabe\OneDrive\Desktop\resume_site\public\AnnabelOtutu Resume.docx.pdf" download>Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#samples">Samples</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="C:\Users\anabe\OneDrive\Desktop\resume_site\views\contact.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-outline-light" type="button" onclick="location.href='C:/Users/anabe/OneDrive/Desktop/resume_site/views/contact.html';">
+                        Contact
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!-- Profile Pic Section -->
+<!-- Hero Section -->
+<section class="hero-section">
+    <video autoplay loop muted>
+      <source src="../public/1409899-uhd_3840_2160_25fps.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Hero Content Name and Title Slider-->
+    <div class="hero-content">
+      <img src="../public/me.jpeg" alt="me" width="300" height="300">
+        <div class="mu-featured-slider-wrapper">
+        <h1>Annabel I. Otutu</h1>
+          <div class="mu-featured-slider" id="typed-strings">
+            <p>I am a <span>Technical Writer</span></p>
+            <p>I am a <span>Web Developer</span></p>
+            <p>I am a <span>Network Operations Specialist</span></p>
+          </div>
+          <span id="typed"></span>
+        </div>
+    </div>
+</section>
+
+  <!-- Optional: JavaScript and Bootstrap scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Typed.js CDN and Initialization -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',  // Pulls the job titles from #typed-strings div
+    typeSpeed: 50,
+    backSpeed: 50,
+    backDelay: 1000,
+    startDelay: 500,
+    loop: true
+  });
+</script>
+
+<!-- Projects -->
+
+<div class="container marketing">
+  <!-- Three columns of text below the carousel -->
+  <div class="row pad_top">
+      <div class="col-lg-4 d-flex flex-column align-items-center pad_left">
+          <img class="rounded-circle pad_top" src="../public/cyberr.jpeg" alt="cyberr" width="250" height="250">
+          <h2 class="impg">Projects</h2>
+          <p>Cybersecurity spans many different sectors. Projects related to cybersecurity as a result can widely vary. Here are some of my more interesting projects I have been engaged in.</p>
+          <p><button type="button" class="btn btn-outline-info btn-lg" href="https://github.com/Annabelly22/Annabelly22?tab=readme-ov-file#skills">Projects</button></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 d-flex flex-column align-items-center pad_top">
+          <img class="rounded-circle pad_top" src="../public/cybery.webp" alt="cybery" width="340" height="340">
+          <h2>Experiences</h2>
+          <p>Here are some successful and engaging collaborations that have been completed in the past! These include trainings and workshops that have been impactful.</p>
+          <a class="btn btn-outline-info btn-lg" href="https://github.com/Annabelly22?tab=repositories">GitHub</a>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 d-flex flex-column align-items-center pad_right">
+          <img class="rounded-circle pad_top" src="../public/website tech writing.jpeg" alt="website" width="250" height="250">
+          <h2>Services</h2>
+          <p>With strong analytical skills and ability to collaborate effectively within cross-functional teams, I am committed to continuous professional development as past experiences show.</p>
+          <p><button type="button" class="btn btn-outline-info btn-lg">Samples</button></p>
+      </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+</div><!-- /.container -->
+
+ <!-- Blogs Section -->
+ <section id="services" class="section bg-light">
+  <div class="container">
+    <div class="text-center">
+        <a class="btn btn-outline-info btn-lg" href="https://github.com/Annabelly22/Blogs/wiki/Blogs" target="_blank">
+            <h2 class="mb-0">Blogs</h2>
+        </a>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="service-card text-center">
+                    <img src="../public/careerpaths.jpg" alt="Cybersecurity Paths" class="img-fluid">
+                    <h3><a href="https://www.cybertechvt.com/index.php/2024/03/24/exploring-cybersecurity-paths/" target="_blank" class="text-decoration-none">Cybersecurity Paths</a></h3>
+                    <p>Cybersecurity is an ever-growing field that caters to many interests and skills.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="service-card text-center">
+                    <img src="../public/malwareimage.png" alt="Malware" class="img-fluid">
+                    <h3>Malware</h3>
+                    <p>To know them is to be one step closer to being able to correctly secure a system.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="service-card text-center">
+                    <img src="../public/roboticartificialimage.avif" alt="Cybersecurity and AI" class="img-fluid">
+                    <h3>Cybersecurity and AI</h3>
+                    <p>What will the integration of AI into Cybersecurity look like in the coming years?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+<footer class="mt-auto flex-d footer">
+  &copy; 2023<script>new Date().getFullYear()>2019&&document.write("-"+new Date().getFullYear());</script>Annabel Iseduwa Otutu
+
+</footer>
+</html>
